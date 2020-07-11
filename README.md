@@ -5,7 +5,7 @@ Hi Guys,
   
 
  
-View the live site <a href='https://stopwatch.vercel.app/' target='_blank'>here</a>. 
+View the live site <a href='https://stopwatch.vercel.app/'>here</a>. 
 
 <img src='images/Stopwatch-preview.GIF' alt= 'desktop-preview'>
 

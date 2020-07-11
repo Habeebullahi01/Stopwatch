@@ -1,0 +1,64 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #092532;
+  color: #c7e2b2;
+  text-align: center;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 200;
+  line-height: 59px;
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+button:active {
+  color:blue ;
+}
+.watch {
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 25px;
+  width: 100%;
+  margin-bottom: 3em;
+}
+.gold {
+  font-weight: 900;
+  color: #f3c623;
+  text-shadow: 0 0 0 #fff, 0 0 40px #f3c623;
+}
+.circle {
+  height: 22em;
+  width: 22em;
+
+  border: 5px solid white;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+
+  width: 21em;
+}
+#time {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  font-size: 48px;
+}
+
+#play {
+  diplay: block;
+}
+#pause {
+  display: none;
+}
